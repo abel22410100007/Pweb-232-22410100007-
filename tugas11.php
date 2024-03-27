@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="myGambar.css">
 </head>
 <body>
 <form action="tugas1.php" method="POST">
@@ -14,8 +15,8 @@
   <input type="number" id="beli" name="beli"><br>
   <label for="jual"> Jual: </label><br>
   <input type="number" id="jual" name="jual"><br><br>
-  <input type="submit" value="Save" name="save">
-  <input type="submit" value="Cancel" name="cancel">
+  <input type="submit" value="Save" name="save" class="custom-button">
+  <input type="submit" value="Cancel" name="cancel" class="custom-button">
 </form>
 </body>
 </html>
